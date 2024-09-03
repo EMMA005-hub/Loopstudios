@@ -1,0 +1,422 @@
+*{
+padding:0px;
+margin:0px;
+}
+nav{
+  background-image: url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890343/image-hero_ykdw2l.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+  height:500px;
+  width: 100%;
+  display:flex;
+}
+.logo{
+  padding-left:40px;
+  padding-top:20px;
+}
+.menu ul{
+  list-style:none;
+  display:flex;
+  gap:20px;
+  padding-left:450px;
+  padding-top:30px;
+  font-size:10px;
+}
+.menu a{
+  text-decoration:none;
+  color:white;
+}
+.hamburger{
+ display:none;
+}
+.greet{
+  color: white;
+  font-size:50px;
+  font-style:monospace;
+  letter-spacing:2px;
+  position: absolute;
+  padding-top:90px;
+  padding-left:50px;
+}
+.greet p{
+  border:1px solid white;
+  padding:10px 10px
+}
+.hero{
+  padding-top:150px;
+  display:flex;
+}
+.heroword h6{
+  text-align: center;
+  margin-bottom:15px;
+}
+.herobanner img{
+  height:300px;
+  width:100%;
+  padding-left:50px;
+  align-items:center;
+}
+.heroword{
+  border:05px solid whitesmoke;
+  padding-top:70px;
+  padding-right:40px;
+}
+.heroword h6{
+  font-size:30px;
+  opacity:0.7;
+  letter-spacing:3px;
+}
+.heroword p{
+opacity: 0.9;
+text-align:center;
+}
+.words{
+  display:flex;
+}
+.kk{
+  font-size:30px;
+  padding-top:50px;
+  padding-left:50px;
+}
+.ff button{
+
+  color:black;
+  border:1px solid black;
+  padding:10px 40px;
+}
+.ff{
+  padding-left:530px;
+  padding-top:50px;
+}
+.services{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  gap:10px;
+  padding-left:50px;
+  padding-top:100px;
+  padding-bottom:100px;
+}
+.one{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890338/image-deep-earth_bfb9tq.jpg');
+  height:400px;
+  width:90%
+}
+.one p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px
+}
+.two{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890344/image-night-arcade_aatrwx.jpg');
+  height: 400px;
+  width:90%
+}
+.two p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.three{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890345/image-soccer-team_igli7a.jpg');
+  height: 400px;
+  width:90%;
+}
+.three p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.four{
+background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-grid_ph4bgw.jpg');
+  height:400px;
+  width:90%;
+}
+.four p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.five{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-from-above_ls2dd2.jpg');
+  height:400px;
+  width:90%
+}
+.five p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.six{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890344/image-pocket-borealis_t24mu1.jpg');
+  height:400px;
+  width:90%;
+}
+.six p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.seven{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-from-above_ls2dd2.jpg');
+  height:400px;
+  width:90%;
+}
+.seven p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.eight{
+  background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1724890339/image-fisheye_vhqwli.jpg');
+  height:400px;
+  width:90%;
+}
+.eight p{
+  color:white;
+  margin-top:340px;
+  margin-left:20px;
+}
+.mm{
+  display:none;
+}
+.footer{
+  background-color:black;
+  height:150px;
+  width:100%;
+}
+.select a{
+  text-decoration:none;
+  color: white;
+}
+.select ul{
+  list-style:none;
+  gap:20px;
+  display:flex;
+  padding-top:20px;
+  padding-left:40px;
+}
+.social a{
+  text-decoration:none;
+}
+.leftitems{
+  display:flex;
+  padding-bottom:5px;
+}
+.social img{
+  margin:5px;
+}
+.social{
+  padding-left:500px;
+  padding-top:15px;
+}
+.rightitems{
+  display:flex;
+}
+.copyright{
+  color:white;
+  padding-left:250px;
+  padding-top:20px;
+  opacity: 0.6;
+}
+
+
+
+
+/* Responsive styles for smartphones */
+@media (max-width: 720px){
+   nav{
+  background-image: url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326668/image-hero_gzkjkb.jpg');
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+    height:700px;
+   }
+   .logo{
+     padding-left:5px;
+   }
+   .hamburger{
+     display:block;
+     padding-left:130px;
+     padding-top:25px;
+   }
+   .greet{
+     padding-top:200px;
+     padding-left:10px
+   }
+   .menu{
+     display:none;
+   }
+   .hero{
+     display: grid;
+     grid-template-columns:1fr;
+     padding-bottom:50px;
+     padding-top:50px;
+   }
+   .herobanner img{
+   height:300px;
+   width:80%;
+   align-items:center;
+   }
+   .heroword h6{
+     text-align: center;
+     margin-left:30px;
+   }
+   .heroword p{
+     text-align:center;
+     margin-left:30px;
+   }
+   .words{
+     display:block;
+     text-align:center;
+   }
+   .ff{
+     display: none;
+   }
+   .services{
+     display: grid;
+     grid-template-columns:1fr;
+     padding-left:30px;
+     padding-top:20px;
+   }
+   .one{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326667/image-deep-earth_zlecwr.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .one p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .two {
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326669/image-night-arcade_yepcep.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .two p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .three{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326674/image-soccer-team_ypemyg.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .three p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .four{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326667/image-grid_mi5bms.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .four p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .five{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326666/image-from-above_rei0bw.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .five p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .six{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326674/image-pocket-borealis_lz0zzu.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .six p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .seven{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326667/image-curiosity_g3jvud.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .seven p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+   }
+   .eight{
+     background-image:url('https://res.cloudinary.com/dtnuqq2ll/image/upload/v1725326666/image-fisheye_zlyigo.jpg');
+     background-position: center;
+     background-repeat:no-repeat;
+     background-size:cover;
+     height:150px;
+   }
+   .eight p{
+     margin-top:80px;
+     margin-left:20px;
+     font-size:30px;
+     padding-bottom:30px;
+   }
+   .mm button{
+     color:black;
+     border:1px solid black;
+     background-color:white;
+     padding:10px 30px;
+     
+   }
+   .mm {
+     display:block;
+     padding-left:100px;
+     padding-top:30px;
+   }
+   .footer{
+     height:400px;
+     width:100%;
+   }
+   .select ul{
+     padding-top:2px;
+     padding-left:150px;
+     display: grid;
+     grid-template-columns: 1fr;
+   }
+   .leftitems{
+     display: grid;
+     grid-template-columns:1fr;
+   }
+   .social{
+     display: grid;
+     grid-template-columns:1fr 1fr 1fr 1fr;
+     padding-left:20px;
+     padding-bottom:4px;
+   }
+   .log{
+     padding-left:100px;
+     padding-top:20px;
+   }
+   .rightitems{
+     display: grid;
+     grid-template-columns:1fr;
+   }
+   .copyright{
+     padding-left:40px;
+   }
+}
